@@ -19,6 +19,7 @@ function App() {
       <ReportLostItem />
         <AllLostItems />
         <GlobalStyle />
+        <h1>{!data ? "Server Loading..." : data}</h1>
     </div>
   );
 }
