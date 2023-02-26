@@ -30,3 +30,8 @@ aTuringRef.set({
 // snapshot.foreach((doc) => {
 //   console.log(doc.id, '=>', doc.data());
 // });
+
+const snapshot = db.collection('users').get();
+snapshot.forEach(doc => {
+    console.log(doc.id, '=>', doc.data());
+});
