@@ -1,37 +1,12 @@
-const { initializeApp, applicationDefault, cert } = require('firebase-admin/app');
-const { getFirestore, Timestamp, FieldValue } = require('firebase-admin/firestore');
+const express = require("express");
+const PORT = process.env.PORT || 3001;
 
-const serviceAccount = require('./lost-solutionk.json');
+const app = express();
 
-initializeApp({
-  credential: cert(serviceAccount)
-});
+app.get("/api", (req,res)=>{
+    res.json({ message: "Hello from the server!" })
+})
 
-const db = getFirestore();
-
-const docRef = db.collection('users').doc('alovelace');
-
-docRef.set({
-  first: 'Ada',
-  last: 'Lovelace',
-  born: 1815
-});
-
-const aTuringRef = db.collection('users').doc('aturing');
-
-aTuringRef.set({
-  'first': 'Alan',
-  'middle': 'Mathison',
-  'last': 'Turing',
-  'born': 1912
-});
-
-// const snapshot = db.collection('users').get();
-// snapshot.foreach((doc) => {
-//   console.log(doc.id, '=>', doc.data());
-// });
-
-const snapshot = db.collection('users').get();
-snapshot.forEach(doc => {
-    console.log(doc.id, '=>', doc.data());
+app.listen(PORT, () => {
+    console.log(`Server Listening on ${PORT}`)
 });

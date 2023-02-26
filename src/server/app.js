@@ -11,7 +11,7 @@ const db = getFirestore();
 
 const docRef = db.collection('users').doc('alovelace');
 
-await docRef.set({
+docRef.set({
   first: 'Ada',
   last: 'Lovelace',
   born: 1815
@@ -19,14 +19,16 @@ await docRef.set({
 
 const aTuringRef = db.collection('users').doc('aturing');
 
-await aTuringRef.set({
+aTuringRef.set({
   'first': 'Alan',
   'middle': 'Mathison',
   'last': 'Turing',
   'born': 1912
 });
 
-const snapshot = await db.collection('users').get();
-snapshot.forEach((doc) => {
-  console.log(doc.id, '=>', doc.data());
-});
+// const snapshot = db.collection('users').get();
+// snapshot.foreach((doc) => {
+//   console.log(doc.id, '=>', doc.data());
+// });
+
+module.exports = serviceAccount
