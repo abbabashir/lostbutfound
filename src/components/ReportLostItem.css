@@ -18,6 +18,15 @@ body{
 
 
 }
+@media only screen and ( min-width: 600px){
+    .content{ margin-left:0px;
+    width: 100%;
+    }
+
+}
+
+
+
 .number{
     color:cornflowerblue;
     text-align: center;
@@ -32,22 +41,26 @@ label{
 .Wrapper{
     text-align: center;
     align-content: center;
+    justify-content: center;
 
 }
 .Content{
     border: #282c34 1px solid;
+    align-content: center;
+    text-align: center;
 
     box-shadow: 2px 1px 0px 3px chartreuse;
-    width: 500px;
+    width: 700px;
     padding-bottom: 20px;
-
-margin-left: 100px;
     background-color: green;
+    margin: auto;
+
 }
 .userinput {
     height: 17px;
     width: 100px;
     font-size: 10px;
+
 }
 .userinput:active{
     border: black 1px solid;
