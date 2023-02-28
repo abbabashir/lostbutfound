@@ -1,0 +1,92 @@
+h1{
+    font-family: 'courier New', Courier, monospace;
+    font-size: 10px;
+
+
+
+}
+body{
+    background-repeat: no-repeat;
+    background-position: right;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color:#eaf9d5;
+    color: chartreuse;
+
+
+
+
+}
+.number{
+    color:cornflowerblue;
+    text-align: center;
+    text-decoration: underline;
+}
+label{
+    font-size: 15px;
+}
+.first:{
+    display: inline;
+}
+.Wrapper{
+    text-align: center;
+    align-content: center;
+
+}
+.Content{
+    border: #282c34 1px solid;
+
+    box-shadow: 2px 1px 0px 3px chartreuse;
+    width: 500px;
+    padding-bottom: 20px;
+
+margin-left: 100px;
+    background-color: green;
+}
+.userinput {
+    height: 17px;
+    width: 100px;
+    font-size: 10px;
+}
+.userinput:active{
+    border: black 1px solid;
+    border-radius: 5px;
+
+}
+.top{
+
+}
+
+#upload {
+    background-color: #61dafb;
+    text-align: center;
+    align-content: center;
+}
+textarea {
+    height: 17px;
+    width: 100px;
+    font-size: 10px;
+}
+textarea:active{
+    border: black 1px solid;
+    border-radius: 5px;
+
+}
+button{
+    height: 25px;
+    width: 150px;
+    background-color:chartreuse;
+    border: black 1px solid;color: white;
+    text-align: center;
+}
+button:hover{background-color: white;color: black;
+}  button:active{background-color: white;color: black;
+}
+#Post{
+
+}
+.show{
+    align-content: center;
+    text-align: center;
+}

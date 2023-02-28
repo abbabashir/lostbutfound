@@ -1,8 +1,9 @@
-
+import "./ReportLostItem.css"
+import Post from "./post";
 const AllLostItems = () => {
     return(
       <div>
-          <h1>All Lost Items</h1>
+          <Post />
 
       </div>
 )
