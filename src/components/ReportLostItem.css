@@ -5,6 +5,20 @@ h1{
 
 
 }
+input[type="file"]::-webkit-file-upload-button {
+    background-color: #f8a100;
+}
+
+input[type="file"]::-ms-browse {
+    background-color: #f8a100;
+}
+
+input[type="file"]::file-selector-button {
+    background-color:chartreuse;
+    border: none;
+    width: 120px;
+    height: 40px;
+}
 body{
     background-repeat: no-repeat;
     background-position: right;
@@ -18,12 +32,10 @@ body{
 
 
 }
-@media only screen and ( min-width: 600px){
-    .content{ margin-left:0px;
-    width: 100%;
-    }
 
-}
+
+
+
 
 
 
@@ -94,7 +106,7 @@ button{
     border: black 1px solid;color: white;
     text-align: center;
 }
-button:hover{background-color: white;color: black;
+button:hover{background-color: red;color: black;
 }  button:active{background-color: white;color: black;
 }
 #Post{

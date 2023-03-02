@@ -6,12 +6,12 @@ const ReportLostItem = () => {
       <div className= 'Wrapper' >
             <div className='Content'>
                 <div className="first">
+                    <p>
                 <label htmlFor="file">Please Upload Image Of Missing Item:
                 </label>
+                    </p>
 
-
-
-                <input id="file" type="file" name="" placeholder="please upload picture of lost item" className="upload"/>
+                    <input id="file" type="file"  accept="image/png, image/gif, image/jpeg" name="" placeholder="please upload picture of lost item" className="upload"></input>
             </div>
               <br/>
                 <img type="image" src="src/components/ReportLostItem" alt="image"/>
