@@ -4,7 +4,6 @@ import AllLostItems from './components/AllLostItems';
 import { GlobalStyle } from './components/GlobalStyle';
 import './App.css';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import Top from "./components/Top";
 import Post from "./components/post";
 import SHOW from "./components/SHOW ALL";
 
@@ -20,9 +19,7 @@ function App() {
   }, []);*/
 
   return (
-    <div className="App">
-
-        <Top />
+    <div>
         <ReportLostItem />
         <br/>
         <Post />

@@ -1,6 +1,5 @@
 import React from "react";
 import './ReportLostItem.css';
-import Top from "./Top"
 const ReportLostItem = () => {
     return(
       <div className= 'Wrapper' >

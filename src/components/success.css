@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+div{
+    border:2px solid ;
+    color: chartreuse;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}

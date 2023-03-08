@@ -6,11 +6,11 @@ h1{
 
 }
 input[type="file"]::-webkit-file-upload-button {
-    background-color: #f8a100;
+    background-color: chartreuse;
 }
 
 input[type="file"]::-ms-browse {
-    background-color: #f8a100;
+    background-color:chartreuse;
 }
 
 input[type="file"]::file-selector-button {
@@ -18,6 +18,12 @@ input[type="file"]::file-selector-button {
     border: none;
     width: 120px;
     height: 40px;
+}
+input[type="file"]::file-selector-button:active{
+    background-color: red;
+}
+input[type="file"]::file-selector-button:hover{
+    background-color: white;
 }
 body{
     background-repeat: no-repeat;
@@ -63,7 +69,6 @@ label{
 
     box-shadow: 2px 1px 0px 3px chartreuse;
     width: 701px;
-    width: 701px;
     padding-bottom: 20px;
     background-color: green;
     margin: auto;
@@ -80,7 +85,10 @@ label{
     border-radius: 5px;
 
 }
-.top{
+.Top{
+    justify-content: center;
+    text-align: center;
+    align-content: center;
 
 }
 
@@ -106,8 +114,8 @@ button{
     border: black 1px solid;color: white;
     text-align: center;
 }
-button:hover{background-color: red;color: black;
-}  button:active{background-color: white;color: black;
+button:hover{background-color: white;color: black;
+}  button:active{background-color: red;color: black;
 }
 #Post{
 
@@ -115,4 +123,46 @@ button:hover{background-color: red;color: black;
 .show{
     align-content: center;
     text-align: center;
+    justify-content: center;
+
+
 }
+#hange{
+    width: 701px;
+    background-color: #282c34;
+
+}
+#hange:hover{
+    background-color: #eaf9d5;
+    color: chartreuse;
+}
+/*ADDING @MEDIA RESPONSIVITY*/
+
+@media screen and (min-width: 200px) {
+
+.Top{
+    text-align: center;
+}
+
+}
+@media screen and (min-width: 480px) {
+
+
+
+}
+@media screen and (min-width: 768px) {
+
+
+
+
+}
+@media screen and (min-width:1024px) {
+
+
+
+
+}
+
+
+
+

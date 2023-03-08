@@ -5,6 +5,7 @@ const AllLostItems = () => {
       <div>
           <Post />
 
+
       </div>
 )
 }
