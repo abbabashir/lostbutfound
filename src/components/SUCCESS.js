@@ -2,7 +2,8 @@ import React from "react";
 import "./success.css"
 const success = () => {
     return(
-  <div>
+
+  <div className="success">
      <h1>
          INFORMATION UPLOAD SUCCESSFUL
      </h1>

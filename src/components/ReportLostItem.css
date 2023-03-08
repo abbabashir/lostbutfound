@@ -24,6 +24,7 @@ input[type="file"]::file-selector-button:active{
 }
 input[type="file"]::file-selector-button:hover{
     background-color: white;
+    color: chartreuse;
 }
 body{
     background-repeat: no-repeat;
@@ -84,11 +85,7 @@ label{
     border: black 1px solid;
     border-radius: 5px;
 
-}
-.Top{
-    justify-content: center;
-    text-align: center;
-    align-content: center;
+
 
 }
 
@@ -111,11 +108,11 @@ button{
     height: 25px;
     width: 150px;
     background-color:chartreuse;
-    border: black 1px solid;color: white;
+    border: chartreuse 1px solid;color: white;
     text-align: center;
 }
-button:hover{background-color: white;color: black;
-}  button:active{background-color: red;color: black;
+button:hover{background-color: white;color:chartreuse;
+}  button:active{background-color: red;color:chartreuse;
 }
 #Post{
 
@@ -140,11 +137,10 @@ button:hover{background-color: white;color: black;
 
 @media screen and (min-width: 200px) {
 
-.Top{
-    text-align: center;
-}
 
 }
+
+
 @media screen and (min-width: 480px) {
 
 

@@ -3,10 +3,14 @@ body{
     align-content: center;
     justify-content: center;
 }
-div{
+.success{
     border:2px solid ;
     color: chartreuse;
-    text-align: center;
-    align-content: center;
-    justify-content: center;
+    width: 701px;
+    height: 200px;
+    padding-top: 100px;
+    margin: auto;
+}
+h1{
+    font-size: 20px;
 }

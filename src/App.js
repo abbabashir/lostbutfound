@@ -6,6 +6,8 @@ import './App.css';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Post from "./components/post";
 import SHOW from "./components/SHOW ALL";
+import ToHOME from "./components/ToHOME";
+import SUCCESS from "./components/SUCCESS";
 
 
 function App() {
@@ -18,7 +20,7 @@ function App() {
       .then((data) => setData(data.message));
   }, []);*/
 
-  return (
+ /* return (
     <div>
         <ReportLostItem />
         <br/>
@@ -33,7 +35,13 @@ function App() {
 
 
     </div>
-  );
+  );*/
+    return(
+        <div>
+            <ToHOME />
+            <SUCCESS />
+        </div>
+    )
 }
 
 export default App;
