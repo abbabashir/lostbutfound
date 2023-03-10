@@ -12,7 +12,7 @@ import SUCCESS from "./components/SUCCESS";
 
 function App() {
 
- /* const [data, setData] = React.useState(null);
+ /*const [data, setData] = React.useState(null);
 
   React.useEffect(() => {
     fetch("/api")
@@ -20,7 +20,7 @@ function App() {
       .then((data) => setData(data.message));
   }, []);*/
 
- /* return (
+  return (
     <div>
         <ReportLostItem />
         <br/>
@@ -35,13 +35,7 @@ function App() {
 
 
     </div>
-  );*/
-    return(
-        <div>
-            <ToHOME />
-            <SUCCESS />
-        </div>
-    )
+  );
 }
 
 export default App;
